@@ -104,12 +104,15 @@ img{
 }
 #img1{
     transform: translate(-50%, -50%) rotate(-30deg);
+    opacity:0.8;
 }
 #img2{
     transform: translate(-50%, -50%) rotate(-20deg);
+    opacity:0.7;
 }
 #img3{
     transform: translate(-50%, -50%) rotate(-10deg);
+    opacity:0.6;
 }
 
 
