@@ -1,0 +1,181 @@
+@font-face {
+  font-family: fontyy;
+  src: url(Gilroy-SemiBold.ttf);
+  font-weight: bold;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: fontyy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* nav */
+#nav {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+}
+#nav span {
+  padding: 1rem 1.5rem;
+  width: 56px;
+  height: 56px;
+  background-color: #000;
+  display: flex;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  font-weight: bold;
+}
+#nav button {
+  padding: 1rem 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50px;
+  font-weight: bold;
+}
+/* wrapper */
+#wrapper {
+  height: 100%;
+  width: 100%;
+}
+/* introo */
+#intro {
+  padding: 55px 50px;
+  width: 100%;
+  height: 45%;
+  background-color: #f5f3ef;
+}
+#intro h1 {
+  font-size: 150px;
+  line-height: 132px;
+  letter-spacing: -3px;
+}
+#place {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#place h3 {
+  font-size: 2rem;
+}
+#place h4 {
+  font-size: 2rem;
+}
+/* hero section */
+img {
+  height: 87%;
+  width: 100%;
+  object-fit: cover;
+}
+/* about section */
+#about {
+  padding: 50px 60px;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#about h2 {
+  color: #000;
+  width: 60%;
+  font-size: 85px;
+  font-weight: 500;
+  line-height: 80px;
+}
+#about-2 {
+  padding-left: 3rem;
+  border-left: 2px solid #000;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#about-2 h3 {
+  margin-top: 5px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+#icons i {
+  margin-right: 20px;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #000;
+  color: #fff;
+}
+/* work section */
+#work {
+  height: 55%;
+  width: 100%;
+  border-top: 2px solid #000;
+  display: flex;
+  padding: 50px 60px;
+}
+#work1 {
+  width: 30%;
+  padding-right: 60px;
+  display: flex;
+  border-right: 2px solid #000;
+  justify-content: space-between;
+}
+#work1 h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#work1 i{
+  font-size: 1.9rem;
+
+}
+#work2 {
+  height: 100%;
+  width: 65%;
+  padding:0 60px;
+
+}
+.work2-part{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.work2-part:nth-child(1){
+    border-bottom: 2px solid #000;
+    padding-top: 0;
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid #000;
+    padding-right: 50px;
+}
+.work2-part .elem:nth-child(2){
+    padding-left: 60px;
+}
+.work2-part .elem h4{
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.work2-part.elem p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
