@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <link
     href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+    rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" rel="stylesheet">
 </head>
 <body>
     <!-- wrpper -->
@@ -23,13 +23,14 @@
             <h1>Bent Lendberg <br>Digital Designer</h1>
             <div id="place">
                 <h3>(Berlin, Germany)</h3>
-                <h4><a href="#about"><span><i class="ri-arrow-right-down-line"></i></span>Scroll Down</a></h4>
+                <h4><a href="#about" ><span><i class="ri-arrow-right-down-line"></i></span>Scroll Down</a></h4>
             </div>
         </div>
         <!-- img  -->
         <img id="hero" src="https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero.webp" alt="">
         <!-- ABOUT -->
         <div id="about">
+            <div id="trigg"></div>
             <h2>As a digital designer, I focus on producing top-notch and impactful digital experiences.</h2>
             <div id="about-2">
                 <h3>(About Us)</h3>
@@ -87,8 +88,8 @@
         </div>
         <!-- Marquee -->
         <marquee class="mwrk" behavior="" direction="">Work Work Work Work Work Work Work Work</marquee>
-        <img src="https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad0d8364135d4087b9c8_project-01-p-1600.webp" alt="">
-        <div id="details">
+        <img id="img1" src="https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad0d8364135d4087b9c8_project-01-p-1600.webp" alt="">
+        <div id="details" class="dd1">
             <div class="dleft">
                 <h1>Camera</h1>
             </div>
@@ -100,29 +101,29 @@
                 </div>
             </div>
         </div>
-        <img src="https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp" alt="">
-        <div id="details">
-            <div class="dleft">
-                <h1>Noise</h1>
+        <img id="img2" src="https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-1600.webp" alt="">
+        <div id="details" class="dd2">
+            <div class="dleft ">
+                <h1 class="left2">Noise</h1>
             </div>
-            <div class="dright">
-                <h2>A cutting-edge digital platform designed to revolutionize the way people interact with technology.</h2>
-                <div class="btn">
-                    <span>Digital Design</span>
-                    <span>2023</span>
+            <div class="dright ">
+                <h2 class="right2">A cutting-edge digital platform designed to revolutionize the way people interact with technology.</h2>
+                <div class="btn ">
+                    <span class="btn2">Digital Design</span>
+                    <span class="btn2">2023</span>
                 </div>
             </div>
         </div>
-        <img src="https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad1988b7ca338942d0b3_project-03-p-1600.webp" alt="">
-        <div id="details">
+        <img id="img3" src="https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad1988b7ca338942d0b3_project-03-p-1600.webp" alt="">
+        <div id="details" class="dd3">
             <div class="dleft">
-                <h1>Robot</h1>
+                <h1 class="left3">Robot</h1>
             </div>
             <div class="dright">
-                <h2>A cutting-edge digital platform designed to revolutionize the way people interact with technology.</h2>
+                <h2 class="right3">A cutting-edge digital platform designed to revolutionize the way people interact with technology.</h2>
                 <div class="btn">
-                    <span>Digital Design</span>
-                    <span>2023</span>
+                    <span class="btn3">Digital Design</span>
+                    <span class="btn3">2023</span>
                 </div>
             </div>
         </div>
@@ -234,6 +235,9 @@
             </div>
         </div>
     </div>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js "></script>
+    <script src="script.js"></script>
 </body>
 </html>
