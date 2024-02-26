@@ -1,9 +1,3 @@
-// import LocomotiveScroll from 'locomotive-scroll';
-
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('#wrapper'),
-//     smooth: true
-// });
 
 const t1 = gsap.timeline();
 t1.from("#nav",{
