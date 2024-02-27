@@ -1,3 +1,7 @@
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#wrapper'),
+//     smooth: true
+// });
 
 const t1 = gsap.timeline();
 t1.from("#nav",{
@@ -27,6 +31,18 @@ t1.from("#hero",{
     opacity:0,
     duration:1.2,
 })
+// name
+gsap.to("#name h2",{
+    transform:"translateX(-215%)",
+    scrollTrigger:{
+        trigger:"#name",
+        scroller:"body",
+        start:"top 0%",
+        end:"top -100%",
+        scrub:2,
+        pin:true,
+    }
+})
 //  About Section
 gsap.from("#about h2",{
     x:100,
@@ -34,7 +50,8 @@ gsap.from("#about h2",{
     duration:1.8,
     delay:0.3,
     scrollTrigger:{
-        trigger:"#trigg",
+        trigger:"#about",
+        top:"top -20%",
         scroller:"body",
     }
 })
@@ -44,7 +61,8 @@ gsap.from("#about-2 h3",{
     duration:1.8,
     delay:0.3,
     scrollTrigger:{
-        trigger:"#trigg",
+        trigger:"#about",
+        top:"top -20%",
         scroller:"body",
     }
 })
@@ -55,7 +73,8 @@ gsap.from("#icons",{
     delay:0.3,
     stagger:0.2,
     scrollTrigger:{
-        trigger:"#trigg",
+        trigger:"#about",
+        top:"top -20%",
         scroller:"body",
     }
 })
